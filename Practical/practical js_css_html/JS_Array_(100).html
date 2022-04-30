@@ -1,0 +1,62 @@
+
+<html>
+<head>
+<title>java script in Array</title>
+</head>
+<body>
+<script type ="text/javascript">
+document.write("<br>***1.Array in fast demo***"+"<br><br>"); 
+var car=new Array();
+car[0]="verana";
+car[1]="dezitor";
+car[2]="dustor";
+car[3]="xuv";
+
+document.write(car[0]+"<br>");
+document.write(car[1]+"<br>");
+document.write(car[2]+"<br>");
+document.write(car[3]+"<br>");
+//====================================================================
+document.write("<br>***2.Array in second demo***"+"<br><br>");
+var kar=new Array("SUV500","verana","dezire","xuv","claz");
+document.write(kar [0]+"<br>");
+document.write(kar [1]+"<br>");
+document.write(kar [2]+"<br>");
+document.write(kar [3]+"<br>");
+//=====================================================================
+document.write("<br>***3.Array in use .length***"+"<br><br>");
+var bat =new Array(10,20,30,40,50,60,70,80,90,100,150,200);
+for(var q=0;q<bat.length;q++)
+{
+	document.write(bat[q]+"<br>");
+}
+//=======================================================================
+document.write("<br>***4.Array in more value use short menthod***"+"<br><br>");
+var cat=new Array();
+len=parseInt(prompt("4.Enter number of value"));
+
+for(w=0;w<len;w++){
+	cat[w]=parseInt(prompt("4.Enter value"));
+}
+for(w=0;w<len;w++){
+	document.write("element["+w+"]="+cat[w]+"<br>");
+}
+//===============================================================
+document.write("<br>***5.Array in more value SUM***"+"<br><br>");
+var num=new Array();
+var i,len1,sum=0;
+
+len1=parseInt(prompt("5.Enter number of value"));
+
+for(i=0;i<len1;i++){
+	num[i]=parseInt(prompt("5.Enter numberic value"));
+}
+
+for(i=0;i<len1;i++){
+	sum+=num[i];
+}
+document.write("sum of value are="+sum);
+
+</script>
+</body>
+</html>

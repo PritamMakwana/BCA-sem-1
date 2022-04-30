@@ -1,0 +1,85 @@
+unit:1
+IC= Integrated Circuits
+LSI = Large Scale Integration​
+MSI= Medim Scale Integration​
+SSI = Small Scale Integration​
+PDP= Personal Data Processor
+VLSI= Very Large Scale Integration (circuits)​
+ULSI = Ultra Large Scale Integration
+ AI = Artificial Intelligence
+ MIPS = Millions Instructions Per Second 
+PMT = PhotoMultiplier Tube 
+CPU = Central Processing Unit 
+ALU = Arithmetic Logical Unit 
+ IC = Integrated Chip  ​
+ VDU = Visual Display Unit
+ CRT = Cathode-Ray Tube 
+ LED = Light-Emitting Diodes 
+  LCD = Liquid-Crystal Device 
+  DMP = Dot Matrix Printer
+  RAM = Random Access Memory
+   RAM is of two types:-
+ Static RAM (SRAM)
+ Dynamic RAM (DRAM)
+ROM = Read Only Memory
+MROM = Masked ROM 
+PROM = Programmable Read only Memory
+EPROM=Erasable and Programmable Read Only Memory
+EEPROM = Electrically Erasable and Programmable Read Only
+Memory
+USB = Universal Serial Bus 
+DVI = Digital Video Interface
+GPU = Graphics Processing Unit
+NIC = Network Interface Card 
+
+ENIAC=Electronic Numerical Integrator and Computer
+EDVAC=Electronic Discrete Variable Automatic Computer
+UNIVAC=Universal Automatic Computer
+
+uint-2
+CCTV = Closed-circuit television 
+PTZ = pan tilt zoom
+POS = Point Of Sale ​
+MIDI = Musical Instrument Digital Interface
+GUI = graphical user interface
+OCR = Optical character recognition OR optical character reader 
+OMR = Optical Mark Recognition
+MICR = magnetic ink character recognition
+OBR = Optical Bar Code
+FDD = floppy disk drive
+HDD = hard disk drive
+SSD = solid-state drives
+PATA = Parallel ATA
+ SATA  = Serial ATA  
+SAS = Serial Attached SCSI
+USB = universal serial bus
+CD = Compact Disc
+DVD = Digital Video Disc
+BD = Blu-ray Discs 
+HDTV = high-definition television 
+BD-ROM = read-only
+BD-R = recordable
+BD-RW = rewritable
+BD-RE = rewritable
+ PDA = personal digital assistants
+
+unit 3:
+LCD = Liquid Crystal Display
+LED = light-emitting diode
+Fax = Fascimile
+FSC = field sequential color  
+LCOS = liquid crystal on silicon
+OLED = organic light-emitting diode
+organic EL = organic electroluminescent 
+SGD = Speech Generating Device
+AAC = augmentative and alternative communication 
+ALS =  amyotrophic lateral sclerosis
+COM = Computer Output Microfilm  
+
+Unit 4
+ASCII= American Standard Code For Information Interchange.​
+BCD=binary coded decimal
+
+
+
+

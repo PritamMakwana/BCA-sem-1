@@ -1,0 +1,33 @@
+Html
+Unit-1
+LAN=Local Area Network
+MAN= Metropolitan Area Network
+WAN=Wide Area Network
+OSI=Open System Interconnection
+TCP=Transmission Control Protocol
+IP=Internet Protocol
+FNC=Federal Networking Council
+ARPA=Advanced Research Projects Agency
+ISP=Internet Service Provider
+VSAT=Very Small Aperture Terminal
+ODU=outdoor unit
+NMS=Network Management System
+URL=Uniform Resource Locator
+
+unit-2
+IETF=Internet Engineering Task Force
+Telnet=Telecommunications Network
+FTP=File Transfer Protocol
+Email=Electronic Mail
+CC=Carbon Copy
+BCC=Blank Carbon Copy
+WWW=World Wide Web
+HTML=Hypertext Markup Language
+HTTP=Hypertext Transfer Protocol
+ICT=Information and Communication Technology
+EDI=Electionic Data Interchange
+EFT=Electronic Funds Transfer
+ATM=Automated Teller Machine
+ERP=Enterprise Resource Planning
+CRM=Customer Relations Management
+EC=Electronic commerce

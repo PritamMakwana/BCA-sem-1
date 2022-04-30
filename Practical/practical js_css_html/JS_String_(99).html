@@ -1,0 +1,116 @@
+<html>
+<head>
+<title>Java script in  String function use</title>
+</head>
+<body>
+<script type="text/javascript">
+//====================================================================================
+document.write("<br>***1.String***<br>");
+var str="Kamani science";
+var col="college";
+var fullname;
+fullname=str.concat(" ",col);
+
+document.write("charactor at="+str.charAt(4)+"<br>");
+document.write("charactor at="+str.charAt(10)+"<br>");
+document.write("concate string="+fullname+"<br>");
+document.write("Index of String ="+str.indexOf("a")+"<br>");
+document.write("Index of String ="+str.indexOf("n")+"<br>");
+document.write("Index of String ="+str.lastIndexOf("n")+"<br>");
+
+//====================================================================================
+document.write("<br>***2.String***<br>");
+var letter;
+var letter="pritam";
+var s1="hello";
+if(s1.match(letter)){
+	document.write("match string"+"<br>");
+}
+{
+	document.write("match string is ON"+"<br>");
+}
+document.write("sstring replace ="+str.replace("kamani","parataprai")+"<br>");
+document.write("search string ="+str.search("kamani")+"<br>");
+document.write("slice string ="+str.slice(0,5)+"<br>");
+document.write("slice string ="+letter.slice(3,5)+"<br>");
+document.write("sub string ="+letter.substring(2,4)+"<br>");
+document.write("sub string ="+letter.substring(1,4)+"<br>");
+document.write("substr string ="+letter.substr(0,4)+"<br>");
+document.write("substr string ="+letter.substr(3,5)+"<br>");
+document.write("Upper case value ="+letter.toUpperCase()+"<br>");
+document.write("Loewr case value ="+letter.toLowerCase()+"<br>");
+
+//====================================================================================
+document.write("<br>***3.String HTML Wapper Methods***<br>");
+var sc="Hello,How are you?";
+
+document.write("Bigger font="+sc.big()+"<br>");
+document.write("smaller font="+sc.small()+"<br>");
+document.write("Blink font="+sc.blink()+"<br>");
+document.write("bold font="+sc.bold()+"<br>");
+document.write("Fixed font="+sc.fixed()+"<br>");
+document.write("italis font="+sc.italics()+"<br>");
+document.write("Strike font="+sc.strike()+"<br>");
+document.write("Color font="+sc.fontcolor("blue")+"<br>");
+document.write("Size font="+sc.fontsize(2)+"<br>");
+
+//====================================================================================
+document.write("<br>***4.String ***<br>");
+
+document.write("abosulet value="+Math.abs(35)+"<br>");
+document.write("abosulet value="+Math.abs(-75)+"<br>");
+document.write("ceil value="+Math.ceil(-3.4)+"<br>");
+document.write("ceil value="+Math.ceil(45.56)+"<br>");
+document.write("floor value="+Math.floor(12.45)+"<br>");
+document.write("floor value="+Math.floor(-12.98)+"<br>");
+document.write("round value="+Math.round(25.65)+"<br>");
+document.write("round value="+Math.round(-25.45)+"<br>");
+document.write("exponatial value="+Math.exp(2)+"<br>");
+document.write("maximum value="+Math.max(10,36,45,12,1,89,100)+"<br>");
+document.write("minimum value="+Math.min(10,36,45,12,1,89,200)+"<br>");
+document.write("power value="+Math.pow(2,4)+"<br>");
+document.write("power value="+Math.pow(3,3)+"<br>");
+document.write("square value="+Math.sqrt(121)+"<br>");
+document.write("random value="+Math.random()+"<br>");
+document.write("Eumar value="+Math.E+"<br>");
+
+//====================================================================================
+document.write("<br>***5.Data object Properties ***<br>");
+
+var d=new Date();
+document.write("today date:="+d.getDate()+"<br>");
+document.write("today days:="+d.getDay()+"<br>");
+document.write("year value:="+d.getFullYear()+"<br>");
+document.write("month value:="+d.getMonth()+"<br>");
+document.write("todays time:="+d.getHours()+"<br>");
+document.write("todays minute:="+d.getMinutes()+"<br>");
+document.write("today second:="+d.getSeconds()+"<br>");
+
+
+//====================================================================================
+document.write("<br>***6.Array Object***<br>");
+
+var fruit=new Array("banana","apple","mangoes","grapes");
+var veg=new Array("potato","tomato","bringles","onion");
+var other_array=fruit.concat(veg);
+document.write("1.lenth of array="+fruit.length+"<br>");
+for(var i=0;i<other_array.length;i++){
+	document.write(other_array[i]+"<br>");
+}
+document.write("2.array join:="+fruit.join(",")+"<br>");
+document.write("3."+veg.pop()+"<br>");
+document.write("4."+"Remain array element="+veg+"<br>");
+document.write("5."+veg.pop()+"<br>");
+document.write("6.Remain array element="+veg+"<br>");
+document.write("="+fruit.push("watermelon")+"<br>");
+document.write("7.New array:="+fruit+"<br>");
+document.write("="+fruit.push("pineapple")+"<br>");
+document.write("8.New array:="+fruit+"<br>");
+document.write("9.Rever array="+fruit.reverse()+"<br>");
+
+
+
+
+</script>
+</body>
+</html>

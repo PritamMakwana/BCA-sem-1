@@ -1,0 +1,25 @@
+<html>
+<head>
+<title>Onclick event</title>
+<script type="text/javascript">
+function display(){
+var name=document.getElementById("txt1").value;
+var sirname=document.getElementById("txt2").value;
+
+var fullname=name+" "+sirname;
+//document.write("1."+name);
+document.getElementById("disp").innerHTML=fullname;
+}
+</script>
+</head>
+<body>
+<form>
+<h3>Onclick event demo</h3>
+<p>Click on the button form dispay</p></br>
+Enter your name:<input type ="text" id="txt1"/><br>
+Enter your sirname:<input type ="text" id="txt2"/><br>
+<button id="b1" onClick="display()">click me</button>
+<p id="disp"></p>
+</form>
+</body>
+</html>

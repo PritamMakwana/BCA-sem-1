@@ -1,0 +1,18 @@
+<html>
+<head>
+<title>canvas squre in line draw ex2</title>
+</head>
+<body>
+<canvas id="can" height="300" width="300" style="border:solid 2px #000000"></canvas>
+<script type="text/javascript">
+ var c=document.getElementById("can");
+ var ctx=c.getContext("2d");
+ ctx.moveTo(150,0);
+ ctx.lineTo(150,300);
+ ctx.moveTo(300,150);
+ ctx.lineTo(0,150);
+ ctx.stroke();
+  </script>
+</body>
+</html>
+
